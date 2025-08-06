@@ -102,7 +102,7 @@ def single_card(s):
   trank = True
   while (trank):
     rank = input(
-        "\nEnter the rank of carrd : \n1. (A) for Ace \n2. (J) for Jack \n3. (Q) for Queen \n4. (K) for King\n5. Number 2-10 \n\nUser : "
+        "\nEnter the rank of card : \n1. (A) for Ace \n2. (J) for Jack \n3. (Q) for Queen \n4. (K) for King\n5. Number 2-10 \n\nUser : "
     )
     rank.upper()
     if (rank not in rank_list):
